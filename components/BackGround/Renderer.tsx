@@ -7,7 +7,16 @@ export default class Renderer extends WebGL1Renderer {
             antialias: true,
             canvas: document.getElementById("bg")
         });
-        this.setSize(window.innerWidth, window.innerHeight);
+        this.config();
         new Scene(this);
+    }
+
+    private config() {
+        this.setSize(window.innerWidth, window.innerHeight);
+        window.addEventListener("resize", this.resize);
+    }
+
+    private resize() {
+        window.location.reload()
     }
 }

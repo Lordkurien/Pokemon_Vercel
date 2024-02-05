@@ -2,9 +2,9 @@
 
 const Section = () => {
   return (
-    <div>
-      
-    </div>
+    <section>
+      Section
+    </section>
   )
 }
 
