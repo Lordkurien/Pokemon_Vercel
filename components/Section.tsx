@@ -7,7 +7,7 @@ const Section = () => {
         
         <h1 className="text">Prepare for Pokémon League</h1>
         <p>
-          Play! Pokémon events are back, and there's no better time to learn about and explore your local Pokémon league.
+          Play! Pokémon events are back, and there&apos;s no better time to learn about and explore your local Pokémon league.
         </p>
       </div>
     </section>
