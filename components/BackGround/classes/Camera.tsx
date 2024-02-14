@@ -1,6 +1,5 @@
 import { PerspectiveCamera } from "three";
 
-
 export default class Camera extends PerspectiveCamera {
     private container: HTMLElement
 
@@ -18,6 +17,7 @@ export default class Camera extends PerspectiveCamera {
         const scrollHeight = this.container.scrollHeight;
         const offSetHeight = this.container.offsetHeight;
         const t = scrollTop * 100 / (scrollHeight - offSetHeight);
+        console.log(this.position)
 
         this.position.z = t * 0.35
         this.position.x = t * 0.025

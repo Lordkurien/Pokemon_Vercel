@@ -3,7 +3,7 @@
 const Section = () => {
   return (
     <section>
-      Section
+      
     </section>
   )
 }
