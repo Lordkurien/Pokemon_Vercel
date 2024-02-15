@@ -53,7 +53,7 @@ p{
     color: #FFCB05;
 }
 
-@media(max-widt: 900px){
+@media(max-width: 900px){
     #s1, #s3 {
         margin-top: 50vh !important;
         width: 100vw;
@@ -63,13 +63,9 @@ p{
     }
 }
 
-@media(max-widt: 600px) {
+@media(max-width: 600px) {
     h1{
         font-size: 5vw;
-    }
-
-    h2{
-        font-size: 3vw;
     }
 
     p {
